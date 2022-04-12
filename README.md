@@ -1,4 +1,4 @@
-### Curso Git
+### Curso Git 🔥
 # Sistema de controle de versao:
 	>Os sistemas de controle de versao sao softwares com a finalidade de fazer o gerenciamento de versoes de um documento qualquer.
 >Tais como: Controle de Histórico, Rastreabilidade e Trabalho em Equipe.
