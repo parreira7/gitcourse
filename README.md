@@ -12,8 +12,8 @@
 	>Área de trabalho tem um repositório local e da push ou pull para o repositório remoto ou do repositório.
 >Exemplo: No repositório remoto possui-se o arquivo 1. Eu baixei a versao um e minha amiga também. Caso eu atualize para uma versao mais recente e de um push para o repositório remoto, devo informar que é um arquivo 2, pois foi atualizado. Caso minha amiga também de pull no arquivo 1 e faça alteraçoes, ela nao poderá dar um push com o nome arquivo 2, pois apresentará incompatibilidade. Deverá ser arquivo 3 ou assim em diante.
 
+>Para git:
 # Plataformas de hospedagem:
-	>Para git:
 	>Armazenam repositórios Git servindo como bacup de todos os arquivos e alteraçoes.
 	>Permitem o trabalho colaborativo em projetos open source ou privados.
 	>As plataformas mais comuns sao: Github; Bitbucket; Gitlab.
