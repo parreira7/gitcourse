@@ -20,12 +20,14 @@
 	>Bitbucket: Soluçao em nuvem para armazenar repositórios do Git.
 
 ### COMANDOS GIT NO BIT BUCKET:
-		>git --system: aplica as configuraçoes para todo repositorio de todos os usuarios no seu computador.
+		>git --system: aplica as configuraçoes para todo repositorio dos usuarios do PC.
 		>git --global: aplica para todo repositório do usuário corrente.
 		>git --local: aplica para o repositório corrente.
-		>As configuraçoes serao aplicadas na ordem: 1- Caso tenha local, prevalece local.
-							    2- Caso tenha global, prevalece global.
-							    3- Se nao, prevalece a do sistema.
+		>As configuraçoes serao aplicadas na ordem: 
+			1- Caso tenha local, prevalece local.
+			2- Caso tenha global, prevalece global.
+			3- Se nao, prevalece a do sistema.
+
 		### $ git config --global user.name "<nome>-global" = Nome global para o usuário
 		### $ git config --local user.name "<nome>" = Nome local para o usuário
 		### $ git config user.name = Checar usuário
@@ -33,8 +35,50 @@
 		Aliases:
 		  >O termo alias é sinonimo de atalho; 
 		  >Os aliases sao usados para criar comandos menores que correspondem a comandos maiores;
-		  >Eles vabilizam fluxos de trabalho mais eficientes por que exgem menos teclas para a execuçao de um comando;
-		  >Definimos um aliasa da seguinte forma: git config --local ou --global ou --system alias.<curto-comando><longo-comando>
+		  >Eles viabilizam fluxos de trabalho mais eficientes por que exigem menos teclas para a exec do comando;
+		  >Definimos um aliasa da seguinte forma: git config --local ou --global ou --system alias.<curto-comando><longo-comando>;
 		  >No curso usarei um comando chamado hist que será um log personalizado e utilizarei ao longo do curso.
-									
 
+
+		  >$git config --global alias.hist 'log --pretty=format:"%h%ad | %s%ad [%an]"" --graph --date=short'
+		  >%h == Hash abreviada do commit;
+		  >%ad == Data do commit;
+		  >%s == Comentários do commit;
+		  >%d == Referencias do commit;
+		  >%an == Nome do autor;
+		  >--graph == Arvore de commits no formato ASCII
+		  >--date=short == Mantem o formato de data pequeno.
+
+# Pedindo Ajuda:
+	Para acessar o manual de ajuda do Git, usa-se o seguinte comando:
+		$git<verb> --help
+
+# Primeiro Commit:
+	>Usamos o comando echo, por exemplo:
+		>$ echo "hello world" > hello.txt
+		>Criamos um txt com a frase hello world!
+		>Para realizarmos um commit, a princípio
+		usaremos o comando $git add nomedoarquivo
+		>E depois $git commit -m "teste"
+		>-m == Descriçao do arquivo
+		>OBS: Se usarmos $git add .
+			adicionaremos todos os arquivos
+			para a área de staging.
+
+### Repositório:
+	O repositório possui tres áreas, tais como:
+	Area de trabalho: área que contém os arquivos e diretórios físicos,
+	onde se altera os dados.
+	Para realizarmos um commit nos arquivos desejados, devemos adicionar
+	os arquivos para a área de staging, com um simples comando
+	>$git add nomedosarquivos
+	Após isso, basta executar um git commit, para fazer a exportaçao
+	para os repositórios.
+
+# Git show:
+	Rever as alteraçoes envolvidas no commit.
+	$git show == Irá exibir as alteraçoes do último commit. 
+	Caso eu tenha feito muitos commits, posso mostrar as alteraçoes
+	de um conjunto de commits utiliza-se:
+	$git show commitN...commitM
+	
