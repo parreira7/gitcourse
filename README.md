@@ -1,10 +1,7 @@
 ### Curso Git
 # Sistema de controle de versao:
 	>Os sistemas de controle de versao (VCS) sao softwares com a finalidade de fazer o gerenciamento de versoes de um documento qualquer.
-Tais como:
-	>Controle de histórico
-	>Trabalho em equipe
-	>Rastreabilidade
+>Tais como: Controle de Histórico, Rastreabilidade e Trabalho em Equipe.
 
 # Centro de versao centralizado:
 	Area de trabalho: commita para o Repositório Central e Repositório Central atualiza para a área de trabalho;
@@ -13,7 +10,7 @@ Tais como:
 
 # Centro de versao distribuído:
 	>Área de trabalho tem um repositório local e da push ou pull para o repositório remoto ou do repositório.
-Exemplo: No repositório remoto possui-se o arquivo 1. Eu baixei a versao um e minha amiga também. Caso eu atualize para uma versao mais recente e de um push para o repositório remoto, devo informar que é um arquivo 2, pois foi atualizado. Caso minha amiga também de pull no arquivo 1 e faça alteraçoes, ela nao poderá dar um push com o nome arquivo 2, pois apresentará incompatibilidade. Deverá ser arquivo 3 ou assim em diante.
+>Exemplo: No repositório remoto possui-se o arquivo 1. Eu baixei a versao um e minha amiga também. Caso eu atualize para uma versao mais recente e de um push para o repositório remoto, devo informar que é um arquivo 2, pois foi atualizado. Caso minha amiga também de pull no arquivo 1 e faça alteraçoes, ela nao poderá dar um push com o nome arquivo 2, pois apresentará incompatibilidade. Deverá ser arquivo 3 ou assim em diante.
 
 # Plataformas de hospedagem:
 	>Para git:
@@ -33,11 +30,11 @@ Exemplo: No repositório remoto possui-se o arquivo 1. Eu baixei a versao um e m
 		### $ git config --local user.name "<nome>" = Nome local para o usuário
 		### $ git config user.name = Checar usuário
 		### % git config --local user.mail "<email>"
-		>Aliases:
-			 >O termo alias é sinonimo de atalho;
-			 >Os aliases sao usados para criar comandos menores que correspondem a comandos maiores;
-			 >Eles vabilizam fluxos de trabalho mais eficientes por que exgem menos teclas para a execuçao de um comando;
-			 >Definimos um aliasa da seguinte forma: git config --local ou --global ou --system alias.<curto-comando><longo-comando>
-			 >No curso usarei um comando chamado hist que será um log personalizado e utilizarei ao longo do curso.
+		Aliases:
+		  >O termo alias é sinonimo de atalho; 
+		  >Os aliases sao usados para criar comandos menores que correspondem a comandos maiores;
+		  >Eles vabilizam fluxos de trabalho mais eficientes por que exgem menos teclas para a execuçao de um comando;
+		  >Definimos um aliasa da seguinte forma: git config --local ou --global ou --system alias.<curto-comando><longo-comando>
+		  >No curso usarei um comando chamado hist que será um log personalizado e utilizarei ao longo do curso.
 									
 
