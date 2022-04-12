@@ -22,22 +22,22 @@
 							### Bitbucket: Soluçao em nuvem para armazenar repositórios do Git.
 
 ### COMANDOS GIT NO BIT BUCKET:
-							>git --system: aplica as configuraçoes para todo repositorio de todos os usuarios no seu computador.
-							>git --global: aplica para todo repositório do usuário corrente.
-							>git --local: aplica para o repositório corrente.
-							##As configuraçoes serao aplicadas na ordem: 1- Caso tenha local, prevalece local.
-																		2- Caso tenha global, prevalece global.
-																		3- Se nao, prevalece a do sistema.
-						### $ git config --global user.name "<nome>-global" = Nome global para o usuário
-						### $ git config --local user.name "<nome>" = Nome local para o usuário
-						### $ git config user.name = Checar usuário
-						### % git config --local user.mail "<email>"
-						####Aliases:
-									>O termo alias é sinonimo de atalho;
-									>Os aliases sao usados para criar comandos menores que correspondem a comandos maiores;
-									>Eles vabilizam fluxos de trabalho mais eficientes por que exgem menos teclas para a execuçao de um comando;
-									>Definimos um aliasa da seguinte forma:
-																			git config --local ou --global ou --system alias.<curto-comando><longo-comando>
+				>git --system: aplica as configuraçoes para todo repositorio de todos os usuarios no seu computador.
+				>git --global: aplica para todo repositório do usuário corrente.
+				>git --local: aplica para o repositório corrente.
+				##As configuraçoes serao aplicadas na ordem: 1- Caso tenha local, prevalece local.
+									     2- Caso tenha global, prevalece global.
+									     3- Se nao, prevalece a do sistema.
+				### $ git config --global user.name "<nome>-global" = Nome global para o usuário
+				### $ git config --local user.name "<nome>" = Nome local para o usuário
+				### $ git config user.name = Checar usuário
+				### % git config --local user.mail "<email>"
+				#### Aliases:
+					     >O termo alias é sinonimo de atalho;
+					     >Os aliases sao usados para criar comandos menores que correspondem a comandos maiores;
+					     >Eles vabilizam fluxos de trabalho mais eficientes por que exgem menos teclas para a execuçao de um comando;
+				>Definimos um aliasa da seguinte forma:
+									git config --local ou --global ou --system alias.<curto-comando><longo-comando>
 									>No curso usarei um comando chamado hist que será um log personalizado e 
 									utilizarei ao longo do curso.
 
