@@ -1,5 +1,4 @@
-<div>
-###Curso Git
+### Curso Git
 ##Sistema de controle de versao
 >Os sistemas de controle de versao (VCS) sao softwares com a finalidade de fazer o gerenciamento de versoes de um documento qualquer, tais como:
 								>Controle de histórico
@@ -41,5 +40,4 @@
 																			git config --local ou --global ou --system alias.<curto-comando><longo-comando>
 									>No curso usarei um comando chamado hist que será um log personalizado e 
 									utilizarei ao longo do curso.
-									
-</div>
+
